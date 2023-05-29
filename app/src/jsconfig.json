@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@/*":["src/*"]
+        }
+    },
+    "exclude": ["node_modules","dist"]  //在这两个文件夹中不能用简写
+}
